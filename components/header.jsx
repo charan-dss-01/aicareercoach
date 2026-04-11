@@ -8,6 +8,7 @@ import {
   ChevronDown,
   StarsIcon,
   Mic,
+  Rocket,
 } from "lucide-react";
 import Link from "next/link";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
@@ -84,9 +85,21 @@ export default async function Header() {
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
-                  <Link href="/live-interview" className="flex items-center gap-2 text-indigo-400 font-medium">
+                  <Link
+                    href="/live-interview"
+                    className="flex items-center gap-2 "
+                  >
                     <Mic className="h-4 w-4" />
                     Live Interview
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <Link
+                    href="/growth-tools"
+                    className="flex items-center gap-2"
+                  >
+                    <Rocket className="h-4 w-4" />
+                    TalentSync AI
                   </Link>
                 </DropdownMenuItem>
               </DropdownMenuContent>
