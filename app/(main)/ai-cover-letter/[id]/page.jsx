@@ -23,7 +23,12 @@ export default async function EditCoverLetterPage({ params }) {
         </h1>
       </div>
 
-      <CoverLetterPreview content={coverLetter?.content} />
+      <CoverLetterPreview
+        coverLetterId={coverLetter?.id}
+        content={coverLetter?.content}
+        jobTitle={coverLetter?.jobTitle}
+        companyName={coverLetter?.companyName}
+      />
     </div>
   );
 }

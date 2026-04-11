@@ -580,7 +580,7 @@ export default function TalentSyncTool() {
                   }
                 />
               </div>
-              <div className="space-y-2 md:col-span-2">
+              {/* <div className="space-y-2 md:col-span-2">
                 <label className="text-sm font-medium">
                   Access Token (Optional)
                 </label>
@@ -594,7 +594,7 @@ export default function TalentSyncTool() {
                   Leave blank to use TALENTSYNC_BEARER_TOKEN from server
                   environment.
                 </p>
-              </div>
+              </div> */}
             </div>
 
             {talentSyncError && (
