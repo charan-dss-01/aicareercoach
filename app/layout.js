@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
 
             <footer className="bg-muted/50 py-12 relative z-10">
               <div className="container mx-auto px-4 text-center text-gray-200">
-                <p>Made with 💗 by SigmaCoders</p>
+                <p>Made with  by DSSC</p>
               </div>
             </footer>
           </ThemeProvider>
